@@ -2,7 +2,7 @@
 <img align="right" src="https://github.com/jwd-ali/RProgressView/blob/master/Images/ezgif.com-video-to-gif-32.gif"  height = "420"/>
 
 # RProgressView
-> Add Progress Animation in just 2 steps in your view
+> Inspired from <b>Reddit</b> app.... Add Progress Animation in just 2 steps in your view
 
 [![CI Status](https://travis-ci.org/jwd-ali/RingPieChart.svg)](https://travis-ci.org/jwd-ali/RingPieChart)
 [![CocoaPods Version](https://img.shields.io/cocoapods/v/Drag3DRotateCard.svg?style=flat)](https://cocoapods.org/pods/Drag3DRotateCard)
