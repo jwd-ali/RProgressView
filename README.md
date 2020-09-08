@@ -69,16 +69,20 @@ If you prefer not to use a dependency manager, you can integrate **RProgressView
 > And for Manuall install you dont need to import anything 
 
 
-You need to simply initiate progressView with four colours if you want to customise colors  initiate  like this
+You need to simply initiate progressView 
 
 > ```swift
 > var progessView = RProgressView() 
 > ```
 
+You cann set number of circles you want in your progress view set `numberOfCircles` property
+> ```swift
+> progress.numberOfCircles = 4
+> ```
 You can show multi color Circles for that turn on `isMultiColour` to true and add colours `dotColors` according to number of circles like this
 
 > ```swift
-> private lazy var progessViewMultiColour:RProgressView = {
+>        private lazy var progessViewMultiColour:RProgressView = {
 >        let progress = RProgressView()
 >        progress.isMultiColour = true
 >        progress.mainDotColor = .black
