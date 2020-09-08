@@ -73,14 +73,13 @@ import UIKit
         let radius: CGFloat = min(bounds.midX,bounds.midY )
         let mainCenter =  CGPoint(x: bounds.midX, y: bounds.midY)
         
+         _ = layer.sublayers.map { $0.map{ $0.removeFromSuperlayer() } }
+        
         let centerDotLayer = getDotLayer(at: mainCenter, size: radius * 0.2, color: mainDotColor  )
         centerDotLayer.frame = bounds
         layer.addSublayer(centerDotLayer)
         
         allCircles.removeAll()
-        
-        _ = layer.sublayers.map { $0.map{ $0.removeFromSuperlayer() } }
-        
         for i in 1...numberOfCircles {
             
             let color = isMultiColour ?  (i <= dotColors.count ?  dotColors[i-1] ??  mainDotColor : mainDotColor ) : mainDotColor
@@ -88,11 +87,9 @@ import UIKit
             let circle = drawCircularLayer(with: CGFloat(Int(radius) * i/numberOfCircles), color: color)
             layer.addSublayer(circle)
             allCircles.append(circle)
-            print(allCircles.count)
         }
         
         for (index,shapeLayer) in allCircles.enumerated() {
-            print("index:\(index)")
             shapeLayer.rotateAnimation(angal: 2 * .pi, duration: speed + Double(index), repeatAnimation: true)
         }
     }
