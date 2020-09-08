@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3469BDA250795A5005A6696 /* YAPLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3469BD8250795A5005A6696 /* YAPLayout.swift */; };
+		E3469BDB250795A5005A6696 /* YAPLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3469BD9250795A5005A6696 /* YAPLayoutAttributes.swift */; };
 		E385DBCA250768A0009EF024 /* RProgressView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E385DBC0250768A0009EF024 /* RProgressView.framework */; };
 		E385DBCF250768A0009EF024 /* RProgressViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385DBCE250768A0009EF024 /* RProgressViewTests.swift */; };
 		E385DBD1250768A0009EF024 /* RProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = E385DBC3250768A0009EF024 /* RProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -20,8 +22,6 @@
 		E385DBF12507847D009EF024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E385DBEF2507847D009EF024 /* LaunchScreen.storyboard */; };
 		E385DBFC2507847D009EF024 /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385DBFB2507847D009EF024 /* DemoTests.swift */; };
 		E385DC072507847E009EF024 /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385DC062507847E009EF024 /* DemoUITests.swift */; };
-		E385DC1525078512009EF024 /* YAPLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385DC1325078512009EF024 /* YAPLayout.swift */; };
-		E385DC1625078512009EF024 /* YAPLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385DC1425078512009EF024 /* YAPLayoutAttributes.swift */; };
 		E385DC18250785AC009EF024 /* UIStackViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385DC17250785AC009EF024 /* UIStackViewFactory.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E3469BD8250795A5005A6696 /* YAPLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YAPLayout.swift; sourceTree = "<group>"; };
+		E3469BD9250795A5005A6696 /* YAPLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YAPLayoutAttributes.swift; sourceTree = "<group>"; };
 		E385DBC0250768A0009EF024 /* RProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E385DBC3250768A0009EF024 /* RProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RProgressView.h; sourceTree = "<group>"; };
 		E385DBC4250768A0009EF024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,8 +81,6 @@
 		E385DC022507847E009EF024 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E385DC062507847E009EF024 /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
 		E385DC082507847E009EF024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E385DC1325078512009EF024 /* YAPLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YAPLayout.swift; sourceTree = "<group>"; };
-		E385DC1425078512009EF024 /* YAPLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YAPLayoutAttributes.swift; sourceTree = "<group>"; };
 		E385DC17250785AC009EF024 /* UIStackViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStackViewFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +124,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E3469BD7250795A5005A6696 /* JDLayout */ = {
+			isa = PBXGroup;
+			children = (
+				E3469BD8250795A5005A6696 /* YAPLayout.swift */,
+				E3469BD9250795A5005A6696 /* YAPLayoutAttributes.swift */,
+			);
+			name = JDLayout;
+			path = "../../../Downloads/SOTabBar-master-2/JDLayout";
+			sourceTree = "<group>";
+		};
 		E385DBB6250768A0009EF024 = {
 			isa = PBXGroup;
 			children = (
@@ -174,7 +184,7 @@
 				E385DBE42507847B009EF024 /* AppDelegate.swift */,
 				E385DBE62507847C009EF024 /* SceneDelegate.swift */,
 				E385DC17250785AC009EF024 /* UIStackViewFactory.swift */,
-				E385DC1225078512009EF024 /* JDLayout */,
+				E3469BD7250795A5005A6696 /* JDLayout */,
 				E385DBE82507847C009EF024 /* ViewController.swift */,
 				E385DBEA2507847C009EF024 /* Main.storyboard */,
 				E385DBED2507847D009EF024 /* Assets.xcassets */,
@@ -200,16 +210,6 @@
 				E385DC082507847E009EF024 /* Info.plist */,
 			);
 			path = DemoUITests;
-			sourceTree = "<group>";
-		};
-		E385DC1225078512009EF024 /* JDLayout */ = {
-			isa = PBXGroup;
-			children = (
-				E385DC1325078512009EF024 /* YAPLayout.swift */,
-				E385DC1425078512009EF024 /* YAPLayoutAttributes.swift */,
-			);
-			name = JDLayout;
-			path = ../../../../Downloads/bPath/bPath/JDLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,11 +431,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E385DC1625078512009EF024 /* YAPLayoutAttributes.swift in Sources */,
 				E385DBE92507847C009EF024 /* ViewController.swift in Sources */,
 				E385DC18250785AC009EF024 /* UIStackViewFactory.swift in Sources */,
+				E3469BDA250795A5005A6696 /* YAPLayout.swift in Sources */,
+				E3469BDB250795A5005A6696 /* YAPLayoutAttributes.swift in Sources */,
 				E385DBE52507847B009EF024 /* AppDelegate.swift in Sources */,
-				E385DC1525078512009EF024 /* YAPLayout.swift in Sources */,
 				E385DBE72507847C009EF024 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
