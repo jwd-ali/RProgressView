@@ -79,14 +79,13 @@ You can show multi color Circles for that turn on `isMultiColour` to true and ad
 
 > ```swift
 > private lazy var progessViewMultiColour:RProgressView = {
-        let progress = RProgressView()
-        progress.isMultiColour = true
-        progress.mainDotColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
-        progress.dotColors = [.red, .green, .blue , .brown]
-        progress.numberOfCircles = 4
-         progress.translatesAutoresizingMaskIntoConstraints = false
-        return progress
-    }()
+>        let progress = RProgressView()
+>        progress.isMultiColour = true
+>        progress.mainDotColor = .black
+>        progress.dotColors = [.red, .green, .blue , .brown]
+>        progress.numberOfCircles = 4
+>        return progress
+>   }()
 > ```
 
 Then in which view you want to show progress call
