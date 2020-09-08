@@ -1,0 +1,11 @@
+framework module RProgressView {
+  umbrella header "RProgressView.h"
+
+  export *
+  module * { export * }
+}
+
+module RProgressView.Swift {
+    header "RProgressView-Swift.h"
+    requires objc
+}

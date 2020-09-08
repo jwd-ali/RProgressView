@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "f8b490a0d46d26da4a464e0e85acb84335ce46c3",
+  "iOS" : [
+    {
+      "name" : "RProgressView",
+      "hash" : "de2c45c0d40c279188005f1ad1540b6675e32ad1a80d1c4e27eed11df0c9a1b8",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ]
+}
