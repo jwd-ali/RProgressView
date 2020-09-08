@@ -50,10 +50,6 @@
 		E3469C132507988A005A6696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3469C162507988A005A6696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3469C182507988A005A6696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3469C212507988A005A6696 /* DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTests.swift; sourceTree = "<group>"; };
-		E3469C232507988A005A6696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3469C2C2507988A005A6696 /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
-		E3469C2E2507988A005A6696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3469C3925079899005A6696 /* YAPLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YAPLayout.swift; sourceTree = "<group>"; };
 		E3469C3A25079899005A6696 /* YAPLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YAPLayoutAttributes.swift; sourceTree = "<group>"; };
 		E3469C3D250798BA005A6696 /* UIStackViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStackViewFactory.swift; sourceTree = "<group>"; };
@@ -91,8 +87,6 @@
 				E3469BE825079859005A6696 /* RProgressView */,
 				E3469BF325079859005A6696 /* RProgressViewTests */,
 				E3469C0925079888005A6696 /* Demo */,
-				E3469C202507988A005A6696 /* DemoTests */,
-				E3469C2B2507988A005A6696 /* DemoUITests */,
 				E3469BE725079859005A6696 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -141,24 +135,6 @@
 				E3469C182507988A005A6696 /* Info.plist */,
 			);
 			path = Demo;
-			sourceTree = "<group>";
-		};
-		E3469C202507988A005A6696 /* DemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				E3469C212507988A005A6696 /* DemoTests.swift */,
-				E3469C232507988A005A6696 /* Info.plist */,
-			);
-			path = DemoTests;
-			sourceTree = "<group>";
-		};
-		E3469C2B2507988A005A6696 /* DemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E3469C2C2507988A005A6696 /* DemoUITests.swift */,
-				E3469C2E2507988A005A6696 /* Info.plist */,
-			);
-			path = DemoUITests;
 			sourceTree = "<group>";
 		};
 		E3469C3825079899005A6696 /* JDLayout */ = {
