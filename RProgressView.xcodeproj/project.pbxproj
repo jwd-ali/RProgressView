@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E3469BDA250795A5005A6696 /* YAPLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3469BD8250795A5005A6696 /* YAPLayout.swift */; };
 		E3469BDB250795A5005A6696 /* YAPLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3469BD9250795A5005A6696 /* YAPLayoutAttributes.swift */; };
-		E385DBCA250768A0009EF024 /* RProgressView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E385DBC0250768A0009EF024 /* RProgressView.framework */; };
+		E385DBCA250768A0009EF024 /* RProgressView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E385DBC0250768A0009EF024 /* RProgressView.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E385DBCF250768A0009EF024 /* RProgressViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385DBCE250768A0009EF024 /* RProgressViewTests.swift */; };
 		E385DBD1250768A0009EF024 /* RProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = E385DBC3250768A0009EF024 /* RProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E385DBDB2507845B009EF024 /* RProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385DBDA2507845B009EF024 /* RProgressView.swift */; };
