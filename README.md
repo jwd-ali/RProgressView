@@ -35,22 +35,22 @@ ___
 To integrate **RProgressView** into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-> use_frameworks!
+ use_frameworks!
 
-> pod 'RProgressView'
+ pod 'RProgressView'
 ```
 
 Then, run the following command:
 
 ```bash
-> $ pod install
+ $ pod install
 ```
 ### [Carthage](http://github.com/Carthage/Carthage)
 
 To integrate `RProgressView` into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-> github "jwd-ali/RProgressView"
+ github "jwd-ali/RProgressView"
 ```
 ### Manually
 
