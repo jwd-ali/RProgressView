@@ -1,5 +1,5 @@
 <img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/header/header.png">
-<img align="right" src="https://github.com/jwd-ali/RProgressView/blob/master/Images/ezgif.com-video-to-gif-32.gif"  width = "420"/>
+<img align="right" src="https://github.com/jwd-ali/RProgressView/blob/master/Images/ezgif.com-video-to-gif-32.gif"  height = "420"/>
 
 # RProgressView
 > Add Progress Animation in just 2 steps in your view
