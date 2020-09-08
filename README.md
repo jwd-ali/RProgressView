@@ -59,7 +59,7 @@ If you prefer not to use a dependency manager, you can integrate **RProgressView
 - Add sources into your project:
   - Drag `RProgressView.swift` and `CALayer+Extension.swift`
 
-  ## Usage
+### Usage
   
  If you are using any dependency manager (pods , carthage , package manager)to integrate RProgressView. Import RProgressView first:
 > ```swift
