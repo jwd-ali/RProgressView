@@ -57,13 +57,13 @@ github "jwd-ali/RProgressView"
 If you prefer not to use a dependency manager, you can integrate **RProgressView** into your project manually.
 
 - Add sources into your project:
-  - Drag `ProgressView.swift` and `CALayer+Extension.swift`
+  - Drag `RProgressView.swift` and `CALayer+Extension.swift`
 
   ## Usage
   
-> If you are using any dependency manager (pods , carthage , package manager)to integrate RProgressView. Import ProgressView first:
+> If you are using any dependency manager (pods , carthage , package manager)to integrate RProgressView. Import RProgressView first:
 > ```swift
-> import ProgressView
+> import RProgressView
 > ```
 
 > And for Manuall install you dont need to import anything 
@@ -72,13 +72,21 @@ If you prefer not to use a dependency manager, you can integrate **RProgressView
 You need to simply initiate progressView with four colours if you want to customise colors  initiate  like this
 
 > ```swift
-> var progessView = ProgressView() 
+> var progessView = RProgressView() 
 > ```
 
-**OR**
+You can show multi color Circles for that turn on `isMultiColour` to true and add colours `dotColors` according to number of circles like this
 
 > ```swift
-> var progessView = ProgressView(colors: [.black, .red, .green, .yellow])
+> private lazy var progessViewMultiColour:RProgressView = {
+        let progress = RProgressView()
+        progress.isMultiColour = true
+        progress.mainDotColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
+        progress.dotColors = [.red, .green, .blue , .brown]
+        progress.numberOfCircles = 4
+         progress.translatesAutoresizingMaskIntoConstraints = false
+        return progress
+    }()
 > ```
 
 Then in which view you want to show progress call
