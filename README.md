@@ -75,7 +75,7 @@ You need to simply initiate progressView
 > var progessView = RProgressView() 
 > ```
 
-You cann set number of circles you want in your progress view set `numberOfCircles` property
+You can set number of circles you want in your progress view set `numberOfCircles` property
 > ```swift
 > progress.numberOfCircles = 4
 > ```
@@ -90,6 +90,18 @@ You can show multi color Circles for that turn on `isMultiColour` to true and ad
 >        progress.numberOfCircles = 4
 >        return progress
 >   }()
+> ```
+
+And if you want to show it i one colour you need. to set `isMultiColour` to false and you don't need to give `dotColors` as they are not needed 
+
+> ```swift
+>.      private lazy var progessViewPlain:RProgressView = {
+>       let progress = RProgressView()
+>       progress.isMultiColour = false
+>       progress.numberOfCircles = 2
+>       progress.translatesAutoresizingMaskIntoConstraints = false
+>       return progress
+>      }()
 > ```
 
 Then in which view you want to show progress call
