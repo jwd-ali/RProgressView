@@ -61,12 +61,12 @@ If you prefer not to use a dependency manager, you can integrate **RProgressView
 
   ## Usage
   
-> If you are using any dependency manager (pods , carthage , package manager)to integrate RProgressView. Import RProgressView first:
+ If you are using any dependency manager (pods , carthage , package manager)to integrate RProgressView. Import RProgressView first:
 > ```swift
 > import RProgressView
 > ```
 
-> And for Manuall install you dont need to import anything 
+And for Manuall install you dont need to import anything 
 
 
 You need to simply initiate progressView 
@@ -76,9 +76,11 @@ You need to simply initiate progressView
 > ```
 
 You can set number of circles you want in your progress view set `numberOfCircles` property
+
 > ```swift
 > progress.numberOfCircles = 4
 > ```
+
 You can show multi color Circles for that turn on `isMultiColour` to true and add colours `dotColors` according to number of circles like this
 
 > ```swift
