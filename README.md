@@ -84,7 +84,7 @@ You can set number of circles you want in your progress view set `numberOfCircle
 You can show multi color Circles for that turn on `isMultiColour` to true and add colours `dotColors` according to number of circles like this
 
 > ```swift
->        private lazy var progessViewMultiColour:RProgressView = {
+>      private lazy var progessViewMultiColour:RProgressView = {
 >        let progress = RProgressView()
 >        progress.isMultiColour = true
 >        progress.mainDotColor = .black
@@ -97,7 +97,7 @@ You can show multi color Circles for that turn on `isMultiColour` to true and ad
 And if you want to show it i one colour you need. to set `isMultiColour` to false and you don't need to give `dotColors` as they are not needed 
 
 > ```swift
->.      private lazy var progessViewPlain:RProgressView = {
+>.    private lazy var progessViewPlain:RProgressView = {
 >       let progress = RProgressView()
 >       progress.isMultiColour = false
 >       progress.numberOfCircles = 2
@@ -109,13 +109,13 @@ And if you want to show it i one colour you need. to set `isMultiColour` to fals
 Then in which view you want to show progress call
 
 > ```swift
->progessView.StartAnimating(in: self.view)
+> progess.StartAnimating(in: self.view)
 > ```
 
 To stop and hide call
 
 > ```swift
-> progessView.stopAnimating()
+> progess.stopAnimating()
 > ```
 
 For better understanding framework includes example project as well
